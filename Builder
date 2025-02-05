@@ -1,0 +1,9 @@
+FROM Dependencies
+
+WORKDIR /app
+
+RUN git clone https://github.com/franneck94/PythonProjectTemplate.git
+
+WORKDIR /app/PythonProjectTemplate
+
+RUN pip install -e . && pip install pytest

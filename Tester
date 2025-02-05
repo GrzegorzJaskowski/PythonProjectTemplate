@@ -1,0 +1,5 @@
+FROM Builder
+
+WORKDIR /app/PythonProjectTemplate
+
+CMD ["pytest"]
