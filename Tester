@@ -1,4 +1,4 @@
-FROM Builder
+FROM builder
 
 WORKDIR /app/PythonProjectTemplate
 
