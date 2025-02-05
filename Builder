@@ -1,4 +1,4 @@
-FROM Dependencies
+FROM dependencies
 
 WORKDIR /app
 
